@@ -12,7 +12,7 @@ public class GameDirector : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+    public void DecreaseHp () {
         this.hpGauge.GetComponent<Image>().fillAmount -= 0.1f;
 		
 	}
